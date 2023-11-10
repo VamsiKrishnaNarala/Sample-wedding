@@ -1,0 +1,86 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+img{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+  
+.mb
+{
+    color: bisque;
+    background-color: rgb(238, 208, 116);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top:50px;
+    margin-left:40px;
+    font-size: 38px;
+} 
+span{
+    color:#F1EB90;
+}
+.grid-container {
+    height: 100vh;
+    display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: 1fr 1fr;
+    background-color: #E27D60;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .name {
+    grid-row: span 1;
+    align-items: center;
+    justify-content: center;
+    font-family: "Script MT",cursive ;
+    
+   
+    /* background-color:#E27D60; */
+    
+  }
+   .max {
+    grid-row: span 2;
+    /* background-color:#E27D60; */
+   }
+   .cow {
+    grid-row: span 1;
+    /* background-color:#E27D60; */
+    text-decoration:none;
+   }
+   .vamsi
+   {
+    color:rgb(56, 89, 94);
+    margin-left: 5px;
+    font-family:"Script MT",cursive ;
+   }
+    .btn
+   {
+    font-size: 30px;
+    padding:10px;
+    height:80px;
+    width:300px;
+    background-color:#FFD9B7;
+    border:None;
+    border-radius: 10px;
+    font-family: "Script MT",cursive ;
+    
+   }
+   h4{
+    font-family: "Script MT",cursive ;
+   }
+.Chinni
+{
+    font-family:"Brush Script MT",cursive ;
+}
+  
